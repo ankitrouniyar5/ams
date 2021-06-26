@@ -54,7 +54,7 @@ function Home() {
                     <label >Phone Number</label> 
                       <input 
                         type = "text" 
-                        placeholder = "pincode"
+                        placeholder = "Phone Number"
                         id = "phoneNumber"
                         onChange =  {(e)=>{setPhoneNumber(e.target.value)}}
                         value = {phoneNumber}
@@ -66,7 +66,7 @@ function Home() {
                     <label>Address</label> 
                       <input 
                         type = "text" 
-                        placeholder = "pincode"
+                        placeholder = "Address"
                         id = "pincode"
                         onChange = {(e)=>{setAddress(e.target.value)}}
                         value = {address}
