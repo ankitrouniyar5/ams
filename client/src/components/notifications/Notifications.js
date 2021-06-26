@@ -48,7 +48,6 @@ function Notification(props) {
         try {
             const notificationsRes = await axios.get(`/notifications?page=${page}`);
             setNotifications(notificationsRes.data);
-            console.log(notificationsRes.data)
         } catch (error) {
             console.log(error)
         }
